@@ -321,7 +321,9 @@ function trigger_resizable()
 				});
 			}
 		});
+		AOS.init();
 	});
+
 })(jQuery, window);
 
 /**
